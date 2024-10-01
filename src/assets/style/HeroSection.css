@@ -1,0 +1,35 @@
+.hero {
+  background-image: url("../Images/hero-bg.webp");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.shop-now-btn {
+  background-color: #f0c14b;
+  padding: 10px 20px;
+  border: none;
+  color: #333;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.shop-now-btn:hover {
+  background-color: #e6ae1d;
+}

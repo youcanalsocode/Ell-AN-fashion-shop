@@ -1,0 +1,19 @@
+.home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.featured-collections {
+  margin-top: 50px;
+}
+
+.featured-collections h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.featured-collections img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
