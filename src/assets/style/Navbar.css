@@ -1,34 +1,29 @@
-.navbar {
+/* Navbar.css */
+
+/* Custom styling for the navbars */
+header {
+  margin-bottom: 1rem; /* Adds space between the two navbars */
+}
+
+.navbar-nav .nav-item {
+  margin: 0 5px; /* Reduces space between nav items */
+}
+
+.navbar-brand {
+  padding: 0.5rem 0; /* Reduces vertical padding */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: #333;
-  padding: 10px 20px;
-  color: white;
+}
+.brand-logo
+{
+  margin-right:2px;
 }
 
-.navbar-brand a {
-  font-size: 24px;
-  color: white;
-  text-decoration: none;
+.form-control {
+  width: 200px; /* Set a width for the search input */
 }
 
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar-links li {
-  display: inline;
-}
-
-.navbar-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.navbar-links a:hover {
-  color: #f0c14b;
+.btn-outline-success {
+  padding: 0.2rem 0.5rem; /* Reduces button padding */
 }
