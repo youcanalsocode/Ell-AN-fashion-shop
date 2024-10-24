@@ -11,19 +11,31 @@ const Navbar = () => {
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <a className="navbar-brand" href="#" >
             <img
-              src={require("../assets/Images/search-icon.png")}
-              height="10px"
-              width={"10px"}
+              src={require("../assets/Images/brand-logo.png")}
+              height="20px"
+              width={"70px"}
               className="brand-logo"
               alt="Logo"
             />
-         ell&an
+        {/* <span className="brand-name">ell&an</span> */}
           </a>
 
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row flex-nowrap">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">
-                Home
+              <i class="fa-solid fa-house"></i>
+              </Link>
+            </li>
+         
+            <li className="nav-item">
+              <Link className="nav-link active" aria-disabled="true" to="#">
+              <i class="fa-solid fa-cart-shopping"></i>
+                
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" to="#">
+                About
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -34,7 +46,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Profile
+                <i class="fa-solid fa-user"></i>
               </Link>
               <ul className="dropdown-menu">
                 <li>
@@ -57,16 +69,6 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link disabled" aria-disabled="true" to="#">
-                Cart
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="#">
-                About
-              </Link>
-            </li>
           </ul>
         </div>
       </nav>
@@ -74,18 +76,18 @@ const Navbar = () => {
       {/* Second Navbar with Search Bar */}
       <nav className="navbar navbar-light bg-light">
         <div className="container-fluid d-flex justify-content-between align-items-center">
-          <form className="d-flex align-items-center" role="search">
+          <form className="d-flex align-items-center w-100" role="search">
             <input
-              className="form-control me-1" // Reduced margin to fit better
+              className="form-control me-2 w-100"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
             <button className="btn btn-outline-success" type="submit" style={{ display: 'none' }}>
-              S
+              Search
             </button>
-            <button className="btn btn-outline-success" type="button">
-              <i className="bi bi-search"></i> {/* Bootstrap icon for search */}
+            <button className="btn btn-outline" type="button">
+              <i className="bi bi-search "></i> {/* Bootstrap icon for search */}
             </button>
           </form>
         </div>

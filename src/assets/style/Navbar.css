@@ -1,6 +1,7 @@
 /* Navbar.css */
 
 /* Custom styling for the navbars */
+/*primary-color #803654 */
 header {
   margin-bottom: 1rem; /* Adds space between the two navbars */
 }
@@ -14,6 +15,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+
+ 
 }
 .brand-logo
 {
@@ -26,4 +29,8 @@ header {
 
 .btn-outline-success {
   padding: 0.2rem 0.5rem; /* Reduces button padding */
+}
+.btn-outline:focus
+{
+  border-color: #803654;
 }
