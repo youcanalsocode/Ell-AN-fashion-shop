@@ -1,36 +1,53 @@
-/* Navbar.css */
 
-/* Custom styling for the navbars */
-/*primary-color #803654 */
 header {
-  margin-bottom: 1rem; /* Adds space between the two navbars */
+  margin-bottom: 1rem; 
+ 
 }
 
+
+.navbar2 {
+  background-color: #5E1F3F; /* For the secondary, lighter navbar */
+  color: #e9b0cc;
+}
 .navbar-nav .nav-item {
-  margin: 0 5px; /* Reduces space between nav items */
+  margin: 0 5px; 
 }
 
 .navbar-brand {
-  padding: 0.5rem 0; /* Reduces vertical padding */
+  padding: 0.5rem 0; 
   display: flex;
   justify-content: center;
   align-items: center;
 
  
 }
+
+.dropdown-menu {
+  position: absolute; 
+  top: 100%;
+  left: 0;
+  z-index: 1000; 
+}
+
 .brand-logo
 {
   margin-right:2px;
 }
 
 .form-control {
-  width: 200px; /* Set a width for the search input */
+  width: 200px; 
 }
 
 .btn-outline-success {
-  padding: 0.2rem 0.5rem; /* Reduces button padding */
+  padding: 0.2rem 0.5rem; 
 }
 .btn-outline:focus
 {
   border-color: #803654;
+}
+.bi-search
+{
+  color: white;
+  width: 20px;
+  height: 20px;
 }
